@@ -117,7 +117,7 @@ export const ContactPageSection = () => {
                     <img src="/images/logo.png" className="contact-content-top-item-image" alt="" />
                   </div>
                   <div className="contact-content-top-item-text">
-                    <p className="description white" >Transform your team's appearance with professional uniforms. Reach out and get in touch with our uniform specialists directly.</p>
+                    <p className="description white" >Transform your team&apos;s appearance with professional uniforms. Reach out and get in touch with our uniform specialists directly.</p>
                   </div>
                 </div>
                 <div className="contact-content-column-row">

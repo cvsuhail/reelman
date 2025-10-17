@@ -412,7 +412,7 @@ export const WorksPageSection = () => {
                 <div className="titlebox-medium-gradient" />
                 <h1 className="subheadline white" ref={subtitleRef2} >We have a diverse portfolio of <br /> successful uniform projects</h1>
               </div>
-              <p className="description grey" ref={subdescriptionRef2} >Our case studies showcase how we've helped businesses across Abu Dhabi enhance their professional image through quality uniforms.</p>
+              <p className="description grey" ref={subdescriptionRef2} >Our case studies showcase how we&apos;ve helped businesses across Abu Dhabi enhance their professional image through quality uniforms.</p>
             </div>
             <div className="casestudies-carousel-wrapper opacity-blur" ref={carouselWrapperRef} onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} >
               <div className="casestudies-carousel" ref={emblaRef} >
@@ -426,7 +426,7 @@ export const WorksPageSection = () => {
                           <h2 className="small-description grey" >Corporate</h2>
                         </div>
                         <h3 className="small-subheadline white" >Corporate Uniform Success</h3>
-                        <p className="description grey" >How we transformed a leading Abu Dhabi corporation's professional image with custom-tailored uniforms.</p>
+                        <p className="description grey" >How we transformed a leading Abu Dhabi corporation&apos;s professional image with custom-tailored uniforms.</p>
                       </div>
                       <div className="casestudies-item-content-imagebox" >
                         <div className="button casestudies-item-content-imagebox-button" >
@@ -470,7 +470,7 @@ export const WorksPageSection = () => {
                           <h2 className="small-description grey" >Education</h2>
                         </div>
                         <h3 className="small-subheadline white" >School Uniform Excellence</h3>
-                        <p className="description grey" >Designing durable, stylish school uniforms for Abu Dhabi's leading educational institutions.</p>
+                        <p className="description grey" >Designing durable, stylish school uniforms for Abu Dhabi&apos;s leading educational institutions.</p>
                       </div>
                       <div className="casestudies-item-content-imagebox" >
                         <div className="button casestudies-item-content-imagebox-button">

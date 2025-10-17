@@ -119,10 +119,10 @@ export const SectionHero = () => {
             <div className="hero-textbox">
               <div className="hero-titlebox">
                 <div className="hero-titlebox-gradient" />
-                <h1 className="headline hero-headline white" ref={titleRef} >U'r Premium !<br />UniformSolutions</h1>
+                <h1 className="headline hero-headline white" ref={titleRef} >U&apos;r Premium !<br />UniformSolutions</h1>
               </div>
               <p className="big-description grey opacity-blur" ref={descriptionRef} >
-                ReelMan is Abu Dhabi's leading uniform tailoring company,
+                ReelMan is Abu Dhabi&apos;s leading uniform tailoring company,
                 From corporate offices to construction sites, 
                 we design and manufacture uniforms that blend comfort, 
                 durability, and style.</p>
