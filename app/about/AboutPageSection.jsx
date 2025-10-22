@@ -19,12 +19,7 @@ export const AboutPageSection = () => {
     const itemRefs = useRef([]);
 
     const teamMembers = [
-        { name: "Ahmed Al-Mansouri", title: "Founder & CEO" },
-        { name: "Sarah Johnson", title: "Head of Design" },
-        { name: "Mohammed Hassan", title: "Production Manager" },
-        { name: "Fatima Al-Zahra", title: "Quality Control Director" },
-        { name: "David Chen", title: "Sales Director" },
-        { name: "Aisha Rahman", title: "Customer Relations Manager" },
+        { name: "Fazal", title: "Founder & CEO" },
     ];
 
     useEffect(() => {
@@ -123,7 +118,7 @@ export const AboutPageSection = () => {
                 </div>
                 <div className="about-divider" ref={lineRef} />
             </div>
-            <div className="about-team">
+            {/* <div className="about-team">
                 <div className="about-team-container">
                     {teamMembers.map((member, index) => (
                         <div className="about-team-item" key={index} ref={el => itemRefs.current[index] = el} >
@@ -132,8 +127,8 @@ export const AboutPageSection = () => {
                         </div>
                     ))}
                 </div>
-            </div>
-            <div className="about-divider" />
+            </div> */}
+            {/* <div className="about-divider" /> */}
             <div className="about-whyus" >
                 <p className="description about-whyus-description grey" >Why us</p>
                 <p className="subheadline about-whyus-subheadline white" ref={titleRef2} >At ReelMan, we embody excellence in uniform manufacturing — quality-focused, innovative, and committed to delivering the best. We don&apos;t just create uniforms; we partner with our clients to elevate their brand image through professional workwear solutions. From corporate offices to industrial sites, every uniform we create is an opportunity to enhance professionalism, ensure comfort, and make a lasting impression.</p>

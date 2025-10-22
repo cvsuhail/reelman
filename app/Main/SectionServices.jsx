@@ -89,7 +89,7 @@ export const SectionServices = () => {
             <h1 className="subheadline white" ref={titleRef} >Your Uniform Solutions Partner</h1>
           </div>
           <p className="description grey" ref={descriptionRef} >Where quality meets professionalism. We empower businesses to enhance their brand image and thrive <br /> with premium uniform solutions across Abu Dhabi and the UAE.</p>
-          <div className="contact-button-wrapper opacity-blur" ref={buttonRef} onClick={toggleOverlay} >
+          <div className="contact-button-wrapper opacity-blur" ref={buttonRef} onClick={()=>{}} >
             <button className="contact-button-white" >
               <span>
                 <span className="contact-button-container-white">

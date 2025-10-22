@@ -70,10 +70,10 @@ export const SectionShowreel = () => {
             <div className="background">
               <div className="trail"></div>
             </div>
-            <video src="/videos/ese.mp4" className="showreel-content-video" autoPlay="autoplay" muted playsInline={true} data-wf-ignore="true" preload="auto" loop />
+            <video src="/videos/tailoring.mp4" className="showreel-content-video" autoPlay="autoplay" muted playsInline={true} data-wf-ignore="true" preload="auto" loop />
           </div>
         </div>
-        <div className="showreel-content-row">
+        {/* <div className="showreel-content-row">
           <div className="showreel-content-row-item opacity-blur" ref={showreelItemRef1} >
             <img src="/logos/awwwards.svg" className="showreel-content-row-item-image" alt="" />
             <div className="showreel-content-row-item-grid" />
@@ -90,7 +90,7 @@ export const SectionShowreel = () => {
             <img src="/logos/cssbestux.svg" className="showreel-content-row-item-image" alt="" />
             <div className="showreel-content-row-item-grid" />
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );

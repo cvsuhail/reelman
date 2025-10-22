@@ -39,11 +39,11 @@ export const SectionKPI = () => {
                 <div className="textbox">
                     <div className="subheadline-box opacity-blur" ref={subheadlineBoxRef} >
                         <Zap className="subheadline-box-icon" />
-                        <h2 className="small-description grey" >Key Performance Indicators</h2>
+                        <h2 className="small-description grey" >Our Commitment to Quality</h2>
                     </div>
                     <div className="titlebox">
                         <div className="titlebox-gradient" />
-                        <h1 className="subheadline white" ref={titleRef} >Numbers That Just Make Sense</h1>
+                        <h1 className="subheadline white" ref={titleRef} >Craftsmanship You Can Measure</h1>
                     </div>
                 </div>
                 <div className="kpi-content-row">
@@ -51,12 +51,12 @@ export const SectionKPI = () => {
                         <div className="kpi-item-textbox">
                             <div className="kpi-item-textbox-top">
                                 <div className="kpi-item-textbox-number">
-                                    <h2 className="headline kpi-item-textbox-number-text white" >250</h2>
+                                    <h2 className="headline kpi-item-textbox-number-text white" >10+</h2>
                                     <div className="kpi-item-textbox-number-gradient" />
                                 </div>
-                                <h3 className="small-subheadline kpi-item-textbox-top-text white" >thousand</h3>
+                                <h3 className="small-subheadline kpi-item-textbox-top-text white" >years</h3>
                             </div>
-                            <p className="description grey" >of data processed by our <br /> models every single month</p>
+                            <p className="description grey" >of experience delivering premium  <br /> corporate and institutional uniforms.</p>
                         </div>
                         <div className="kpi-item-button" >
                             <Globe className="kpi-item-button-icon" />
@@ -67,12 +67,12 @@ export const SectionKPI = () => {
                         <div className="kpi-item-textbox">
                             <div className="kpi-item-textbox-top">
                                 <div className="kpi-item-textbox-number">
-                                    <h2 className="headline kpi-item-textbox-number-text white" >$100</h2>
+                                    <h2 className="headline kpi-item-textbox-number-text white" >500+</h2>
                                     <div className="kpi-item-textbox-number-gradient" />
                                 </div>
-                                <h3 className="small-subheadline kpi-item-textbox-top-text white" >million</h3>
+                                <h3 className="small-subheadline kpi-item-textbox-top-text white" >clients</h3>
                             </div>
-                            <p className="description grey" >client revenue driven by our <br /> tailored solutions and strategies.</p>
+                            <p className="description grey" >across corporate, hospitality, <br /> and educational sectors.</p>
                         </div>
                         <div className="kpi-item-button" >
                             <User className="kpi-item-button-icon" />
@@ -83,12 +83,12 @@ export const SectionKPI = () => {
                         <div className="kpi-item-textbox">
                             <div className="kpi-item-textbox-top">
                                 <div className="kpi-item-textbox-number">
-                                    <h2 className="headline kpi-item-textbox-number-text white" >500</h2>
+                                    <h2 className="headline kpi-item-textbox-number-text white" >50K+</h2>
                                     <div className="kpi-item-textbox-number-gradient" />
                                 </div>
-                                <h3 className="small-subheadline kpi-item-textbox-top-text white" >million</h3>
+                                <h3 className="small-subheadline kpi-item-textbox-top-text white" >uniforms</h3>
                             </div>
-                            <p className="description grey" >users continuosly running our <br /> photo enhancment software plugin.</p>
+                            <p className="description grey" >stitched and delivered with <br /> precision and quality assurance.</p>
                         </div>
                         <div className="kpi-item-button" >
                             <Cone className="kpi-item-button-icon" />

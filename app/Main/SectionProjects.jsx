@@ -130,9 +130,9 @@ export const SectionProjects = () => {
         </div>
         <div className="titlebox">
           <div className="titlebox-big-gradient" />
-          <h1 className="subheadline white" ref={titleRef} >Pioneering Projects That Consistently <br className="hide-on-mobile" /> Redefine What’s Possible</h1>
+          <h1 className="subheadline white" ref={titleRef} >Crafting Uniforms<br className="hide-on-mobile" /> That Define Professional Excellence </h1>
         </div>
-        <p className="description grey" ref={descriptionRef} >Transforming startups, SMEs, and industry <br className="hide-on-desktop" /> giants into digital leaders.</p>
+        <p className="description grey" ref={descriptionRef} >Custom-crafted uniforms for schools, corporates, and industries <br className="hide-on-desktop" />— where quality meets identity.</p>
       </div>
       <div className="projects-content" ref={contentRef} onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} onClick={onNextButtonClick} >
         <div className="projects-gradient-top" />
@@ -141,23 +141,23 @@ export const SectionProjects = () => {
           <div className="projects-carousel" ref={emblaRef} >
             <div className="projects-carousel-row">
               <div className="projects-carousel-item">
-                <Image src="/mockups/heave.webp" width={1920} height={1080} unoptimized className="projects-carousel-item-image" alt="Heavecorp project" />
+                <Image src="/mockups/heave.png" width={1920} height={1080} unoptimized className="projects-carousel-item-image" alt="Heavecorp project" />
               </div>
               <div className="projects-carousel-item">
-                <Image src="/mockups/essentia.webp" width={1920} height={1080} unoptimized className="projects-carousel-item-image" alt="" />
+                <Image src="/mockups/essentia.png" width={1920} height={1080} unoptimized className="projects-carousel-item-image" alt="" />
               </div>
-              <div className="projects-carousel-item">
+              {/* <div className="projects-carousel-item">
                 <Image src="/mockups/kinimatic.webp" width={1920} height={1080} unoptimized className="projects-carousel-item-image" alt="" />
-              </div>
-              <div className="projects-carousel-item">
+              </div> */}
+              {/* <div className="projects-carousel-item">
                 <Image src="/mockups/peak.webp" width={1920} height={1080} unoptimized className="projects-carousel-item-image" alt="" />
-              </div>
-              <div className="projects-carousel-item">
+              </div> */}
+              {/* <div className="projects-carousel-item">
                 <Image src="/mockups/vitalenta.webp" width={1920} height={1080} unoptimized className="projects-carousel-item-image" alt="" />
-              </div>
-              <div className="projects-carousel-item">
+              </div> */}
+              {/* <div className="projects-carousel-item">
                 <Image src="/mockups/rev.webp" width={1920} height={1080} unoptimized className="projects-carousel-item-image" alt="" />
-              </div>
+              </div> */}
             </div>
           </div>
           </div>

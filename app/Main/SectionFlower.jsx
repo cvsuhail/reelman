@@ -107,23 +107,23 @@ export const SectionFlower = () => {
         <div className="flower-content-textbox">
           <div className="flower-content-textbox-item" >
             <span>
-              <h1 className="subheadline white" ref={textRef1} >Grow</h1>
+              <h1 className="subheadline white" ref={textRef1} >Define</h1>
             </span>
             <span>
               <h1 className="subheadline white" ref={textRef2} >Your</h1>
             </span>
             <span>
-              <h1 className="subheadline white" ref={textRef3} >Digital</h1>
+              <h1 className="subheadline white" ref={textRef3} >Brand</h1>
             </span>
             <span>
               <div className="flower-content-right-content-item" ref={imageRef1} >
-                <img src="/images/iphoneoptimized.png" className="flower-content-right-content-item-image" alt="" />
+                <img src="/images/logo.png" className="flower-content-right-content-item-image" alt="" />
               </div>
             </span>
           </div>
           <div className="flower-content-textbox-item" >
             <span>
-              <h1 className="subheadline white" ref={textRef4} >Presence,</h1>
+              <h1 className="subheadline white" ref={textRef4} >Identity,</h1>
             </span>
             <span>
               <h1 className="subheadline white" ref={textRef5} >Let</h1>
@@ -134,15 +134,15 @@ export const SectionFlower = () => {
           </div>
           <div className="flower-content-textbox-item" >
             <span>
-              <h1 className="subheadline white" ref={textRef7} >Vision</h1>
+              <h1 className="subheadline white" ref={textRef7} >Team</h1>
             </span>
             <span>
               <div className="flower-content-right-content-item" ref={imageRef2} >
-                <img src="/images/iphoneoptimized.png" className="flower-content-right-content-item-image" alt="" />
+                <img src="/images/logo.png" className="flower-content-right-content-item-image" alt="" />
               </div>
             </span>
             <span>
-              <h1 className="subheadline white" ref={textRef8} >Bloom</h1>
+              <h1 className="subheadline white" ref={textRef8} >Shine</h1>
             </span>
           </div>
         </div>
