@@ -149,8 +149,13 @@ export const SectionHero = () => {
               </div>
           </div>
           <div className="hero-content-right" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} >
-            <Canvas style={{ pointerEvents: 'auto', width: "100%", height: "100%", position: "absolute", top: 0, left: 0, zIndex: 1 }} camera={{ position: [ 2, 0, 10], fov: 35 }}>
-              <Suspense fallback >
+            <Canvas 
+              style={{ pointerEvents: 'auto', width: "100%", height: "100%", position: "absolute", top: 0, left: 0, zIndex: 1 }} 
+              camera={{ position: [ 2, 0, 10], fov: 35 }}
+              performance={{ min: 0.5 }}
+              dpr={[1, 2]}
+            >
+              <Suspense fallback={null}>
                 <Float rotationIntensity={0.5} floatIntensity={2} speed={2}>
                   <Item3 />
                 </Float>

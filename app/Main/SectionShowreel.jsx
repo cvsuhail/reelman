@@ -70,7 +70,16 @@ export const SectionShowreel = () => {
             <div className="background">
               <div className="trail"></div>
             </div>
-            <video src="/videos/tailoring.mp4" className="showreel-content-video" autoPlay="autoplay" muted playsInline={true} data-wf-ignore="true" preload="auto" loop />
+            <video 
+              src="/videos/tailoring.mp4" 
+              className="showreel-content-video" 
+              autoPlay="autoplay" 
+              muted 
+              playsInline={true} 
+              data-wf-ignore="true" 
+              preload="metadata" 
+              loop 
+            />
           </div>
         </div>
         {/* <div className="showreel-content-row">

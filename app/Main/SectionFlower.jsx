@@ -12,6 +12,23 @@ export const SectionFlower = () => {
         let frameCount = 300,
         urls = new Array(frameCount).fill().map((o, i) => `/imageSequence/image${i + 1}.webp`);
         
+        // Check if screen is mobile (≤768px) or large screen (>768px)
+        const isMobile = window.innerWidth <= 768;
+        const isLargeScreen = window.innerWidth > 768;
+        
+        // Update canvas dimensions based on screen size
+        const canvas = document.getElementById("image-sequence");
+        if (canvas) {
+            if (isMobile) {
+                // Mobile: 2000x4000
+                canvas.width = 2000;
+                canvas.height = 4000;
+            } else if (isLargeScreen) {
+                // Large screen: 1920x1080
+                canvas.width = 1920;
+                canvas.height = 1080;
+            }
+        }
     
         imageSequence({
           urls,
@@ -102,7 +119,7 @@ export const SectionFlower = () => {
         <div className="projects-gradient-top" />
         <div className="projects-gradient-bottom" />
         <div className="flower-content-sequence">
-          <canvas className="image-sequence-canvas" id="image-sequence" width="1920" height="1080" />
+          <canvas className="image-sequence-canvas" id="image-sequence" />
         </div>
         <div className="flower-content-textbox">
           <div className="flower-content-textbox-item" >

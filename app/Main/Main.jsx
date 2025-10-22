@@ -22,8 +22,11 @@ const Main = () => {
 
   useLayoutEffect(() => {
     if (progress === 100) {
-      setFadeOut(true);
-      lenis?.start();
+      // Add a small delay to ensure smooth transition
+      setTimeout(() => {
+        setFadeOut(true);
+        lenis?.start();
+      }, 300);
     }
   }, [progress, lenis]);
 
