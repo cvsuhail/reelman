@@ -3,8 +3,7 @@ import { ArrowUpRight } from "lucide-react";
 import Image from "next/image";
 import React, { useEffect, useLayoutEffect, useRef, useState } from "react";
 import gsap from "gsap";
-import Link from "next/link";
-import { useRouter, usePathname } from 'next/navigation';
+import { useLenis } from 'lenis/react';
 
 export const Navigation = () => {
 
@@ -29,12 +28,15 @@ export const Navigation = () => {
 
     // NAVIGATION
 
-    const router = useRouter();
-    const pathname = usePathname();
-    let isAnimating = false;
+    const lenis = useLenis();
   
-    const handleNavigate = (path) => {
-        router.push(path);
+    const handleScrollToSection = (sectionId) => {
+        if (lenis) {
+            lenis.scrollTo(`#${sectionId}`, {
+                duration: 1.5,
+                easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t))
+            });
+        }
     };
 
   return (
@@ -44,16 +46,16 @@ export const Navigation = () => {
                 <img src="/images/logo.png" className="navigation-inside-left-image" alt="ReelMan Uniforms" />
             </div>
             <div className="navigation-inside-big" ref={navigationBarCenter} >
-                <p className="small-description white hover-text-white opacity" ref={navigationBarCenterRef1} onClick={() => handleNavigate('/')} >Home</p>
-                <p className="small-description white hover-text-white opacity" ref={navigationBarCenterRef2} onClick={() => handleNavigate('/')} >About</p>
-                <p className="small-description white hover-text-white opacity" ref={navigationBarCenterRef3} onClick={() => handleNavigate('/')} >Works</p>
-                {/* <p className="small-description white hover-text-white opacity" ref={navigationBarCenterRef4} onClick={() => handleNavigate('/casestudies')} >Case Studies</p> */}
+                <p className="small-description white hover-text-white opacity" ref={navigationBarCenterRef1} onClick={() => handleScrollToSection('home')} >Home</p>
+                <p className="small-description white hover-text-white opacity" ref={navigationBarCenterRef2} onClick={() => handleScrollToSection('about')} >About</p>
+                <p className="small-description white hover-text-white opacity" ref={navigationBarCenterRef3} onClick={() => handleScrollToSection('works')} >Works</p>
+                {/* <p className="small-description white hover-text-white opacity" ref={navigationBarCenterRef4} onClick={() => handleScrollToSection('casestudies')} >Case Studies</p> */}
             </div>
             <div className="navigation-inside-right">
-                <button className="button button-navigation button-transparent-border" onClick={() => handleNavigate('/contact')} >
+                <button className="button button-navigation button-transparent-border" onClick={() => handleScrollToSection('contact')} >
                     <div className="button-content">
-                        <span className="small-description">Get Quote</span>
-                        <span className="small-description">Get Quote</span>
+                        <span className="small-description">Contact Us</span>
+                        <span className="small-description">Contact Us</span>
                     </div>
                     <div className="button-circle button-circle-white">
                         <ArrowUpRight className="button-icon" />

@@ -27,7 +27,7 @@ export const SectionFooter = () => {
   }, [])
 
   return (
-    <section className="footer">
+    <section className="footer" id="contact">
       <div className="footer-content">
         <div className="footer-content-left" ref={topRef1} >
           <img src="/images/logo.png" className="footer-logo" alt="" />

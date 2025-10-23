@@ -10,6 +10,10 @@ import { SectionServices } from "./SectionServices";
 import { SectionProjects } from "./SectionProjects";
 import { SectionProjectsMobile } from "./SectionProjectsMobile";
 import { SectionKPI } from "./SectionKPI";
+import { SectionWhyUs } from "./SectionWhyUs";
+import { SectionSticky } from "./SectionSticky";
+import { SectionIndustries } from "./SectionIndustries";
+import { SectionCaseStudies } from "./SectionCaseStudies";
 import "./main.css";
 import { useEffect, useLayoutEffect, useState } from 'react';
 import { useProgress } from "@react-three/drei";
@@ -37,24 +41,33 @@ const Main = () => {
           <img src="/images/logo.png" className="loading-image" alt="Loading Image" />
         </div>
       </div>
-      <SectionHero /> 
+      <SectionHero />
+      <div className="normal-padding" />
+      <SectionCaseStudies />
       <div className="normal-padding" />
       <SectionShowreel />
       <div className="border-padding">
         <div className="section-border"></div>
       </div>
-      <SectionServices />
+      {/* <SectionServices />
+      <div className="normal-padding" /> */}
+      <SectionSticky />
       <div className="normal-padding" />
       <SectionProjects />
       <SectionProjectsMobile />
       <div className="normal-padding" />
       {/* <SectionTechstack /> */}
       {/* <div className="normal-padding" /> */}
-      {/* <SectionTestimonials /> */}
-      {/* <div className="normal-padding" /> */}
+      
       <SectionKPI />
       <div className="normal-padding" />
+      <SectionWhyUs />
+      <div className="normal-padding" />
       <SectionFlower />
+      <div className="normal-padding" />
+      <SectionTestimonials />
+      <div className="normal-padding" />
+      <SectionIndustries />
       <div className="normal-padding" />
       <SectionFooter />
     </ReactLenis>
